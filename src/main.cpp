@@ -9,5 +9,6 @@ int main()
 
 ecole e;
 std::cout <<e.datecreation(1999)<<std::endl;
+
 return 0;
 }
