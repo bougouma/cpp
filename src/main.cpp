@@ -4,8 +4,8 @@
 
 int main()
 {
-calcul a;
-std::cout <a.somme(5,6) <<std::endl;
+//calcul a;
+//std::cout <a.somme(5,6)<<std::endl;
 
 ecole e;
 std::cout <<e.datecreation(1999)<<std::endl;
