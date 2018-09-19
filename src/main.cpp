@@ -1,15 +1,13 @@
-#include<iostream>
-#include<stdlib.h>
-#include<cstdio>
+#include <iostream>
+#include"lib.h"
+#include "ecole.h"
+
 int main()
 {
-int a;
-int b;
+calcul a;
+std::cout <a.somme(5,6) <<std::endl;
 
-std::cout<<"Choissisez la valeur de a:"<<std::endl;
-std::cin>>a;
-std::cout<<"choissisz la valeur de b"<<std::endl;
-std::cin>>b;
-std::cout<<"resulta du calcule= "<<a+b<<std::endl;
+ecole e;
+std::cout <<e.datecreation(1999)<<std::endl;
 return 0;
 }
